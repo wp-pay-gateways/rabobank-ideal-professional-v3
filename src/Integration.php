@@ -2,7 +2,9 @@
 
 class Pronamic_WP_Pay_Gateways_Rabobank_IDealAdvancedV3_Integration {
 	public function __construct() {
-		$this->id = 'rabobank-ideal-professional-v3';
+		$this->id       = 'rabobank-ideal-professional-v3';
+		$this->name     = 'Rabobank - iDEAL Professional - v3';
+		$this->provider = 'rabobank';
 	}
 
 	public function get_config_factory_class() {
