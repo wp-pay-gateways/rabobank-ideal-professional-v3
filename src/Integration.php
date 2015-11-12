@@ -1,6 +1,6 @@
 <?php
 
-class Pronamic_WP_Pay_Gateways_Rabobank_IDealAdvancedV3_GatewayIntegration {
+class Pronamic_WP_Pay_Gateways_Rabobank_IDealAdvancedV3_Integration {
 	public function __construct() {
 		$this->id = 'rabobank-ideal-professional-v3';
 	}
@@ -11,6 +11,10 @@ class Pronamic_WP_Pay_Gateways_Rabobank_IDealAdvancedV3_GatewayIntegration {
 
 	public function get_config_class() {
 		return 'Pronamic_WP_Pay_Gateways_IDealAdvancedV3_Config';
+	}
+
+	public function get_settings_class() {
+		return 'Pronamic_WP_Pay_Gateways_IDealAdvancedV3_Settings';
 	}
 
 	public function get_gateway_class() {
