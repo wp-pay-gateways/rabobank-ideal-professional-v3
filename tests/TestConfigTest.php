@@ -8,7 +8,7 @@
  * @author Remco Tolsma
  * @version 1.0.0
  */
-class Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_TestConfigTest extends PHPUnit_Framework_TestCase {
+class Pronamic_WP_Pay_Gateways_Rabobank_IDealAdvancedV3_TestConfigTest extends PHPUnit_Framework_TestCase {
 	public function test_config() {
 		$config = new Pronamic_WP_Pay_Gateways_Rabobank_IDealAdvancedV3_TestConfig();
 
