@@ -16,7 +16,8 @@ class Pronamic_WP_Pay_Gateways_Rabobank_IDealAdvancedV3_Config extends Pronamic_
 
 	public function get_certificates() {
 		return array(
-			dirname( __FILE__ ) . '/../certificates/rabobank.cer',
+			dirname( __FILE__ ) . '/../certificates/rabobank-2022.cer',
+			dirname( __FILE__ ) . '/../certificates/rabobank-2017.cer',
 		);
 	}
 }
